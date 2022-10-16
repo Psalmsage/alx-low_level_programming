@@ -4,6 +4,13 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
+/**
+ * main- main start
+ * @main - postivity and negativity
+ * Return: Always 0 (Success)
+ * To print out the positivity and negativity in the variable n
+ * main - This is the start main
+ */
 int main(void)
 {
 	int n;
