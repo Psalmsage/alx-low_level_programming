@@ -3,13 +3,15 @@
 /**
  * main- main start
  * @mian - for alphabet
+ * Return: Always 0 (Success)
  */
-int main()
-{
-	char i;
-	for (ch= ‘a’; ch<= ‘z’; ch++)
-		putchar(ch);
-		putchar (‘\n’) ;
-		getch();
-}
 
+int main(void)
+{
+	int ch;
+
+	for (ch = 'a'; ch <= 'z'; ch++)
+		putchar(ch);
+	putchar('\n');
+	return (0);
+}
