@@ -1,11 +1,12 @@
 #include "main.h"
 
 /**
+ * print_alphabet - for the alpha
  * main - check the code
  *
- * Return: Always 0.
+ * Return: Always 0
  */
-int main(void)
+void print_alphabet(void)
 {
 	print_alphabet();
 
