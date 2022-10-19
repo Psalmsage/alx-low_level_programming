@@ -2,6 +2,8 @@
 #include <unistd.h>
 /* betty style doc for function main goes there */
 /**
+ * print_alphabet - for the alpha
+ * @print_alphabet - for the letter
  * main - check the code
  * @main - for alpha
  * Return: Always 0 (Success)
@@ -10,7 +12,7 @@
  */
 
 
-int main(void)
+int print_alphabet(void)
 {
 	int ch;
 
