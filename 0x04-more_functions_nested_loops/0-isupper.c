@@ -9,7 +9,7 @@
 
 int isUpper(void)
 {
-	int c;
+	char c;
 
 	if (c >= 'A' && c <= 'Z')
 		return (1);
