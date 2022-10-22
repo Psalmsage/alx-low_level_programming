@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <ctype.h>
 
 /**
  * isUpper - for uppercase
@@ -11,8 +12,16 @@ int isUpper(void)
 {
 	char c;
 
-	if (c >= 'A' && c <= 'Z')
-		return (1);
-	else
-		return (0);
+	for (c = 'A'; c <= 'Z'; c++)
+	{
+		if (isupper(c))
+		{
+			return (1);
+		}
+		else
+		{
+			return (0);
+		}
+	}
+	return (0);
 }
