@@ -1,9 +1,11 @@
 #include <stdio.h>
+#include "main.h"
 #include <ctype.h>
 
 /**
- * digit - for digit
- * @digit - for num
+ * _isdigit - for digit
+ * @_isdigit - for num
+ * @c : the number
  * c - for c num
  * @int c - integer
  *
@@ -11,20 +13,14 @@
  *
  */
 
-int digit(void)
+int _isdigit(int c)
 {
-	int c;
-
-	for (c = 0; c <= 9; c++)
+	if (c >= '0' && c <= '9')
 	{
-		if (isdigit(c))
-		{
-			return (1);
-		}
-		else
-		{
-			return (0);
-		}
+		return (1);
 	}
-	return (0);
+	else
+	{
+		return (0);
+	}
 }
