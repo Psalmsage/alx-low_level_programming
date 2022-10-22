@@ -1,27 +1,24 @@
+#include "main.h"
 #include <stdio.h>
 #include <ctype.h>
 
 /**
- * isUpper - for uppercase
- * @isUpper - for all
+ * _isUpper - for uppercase
+ * @c: what been acted opon
+ * @_isUpper - for all
  * @int c -letter
  * Return: Always 0 (Success)
  */
 
-int isUpper(void)
+int _isUpper(int c)
 {
-	char c;
 
-	for (c = 'A'; c <= 'Z'; c++)
+	if (c >= 'A' &&  c <= 'Z')
 	{
-		if (isupper(c))
-		{
-			return (1);
-		}
-		else
-		{
-			return (0);
-		}
+		return (1);
 	}
-	return (0);
+	else
+	{
+		return (0);
+	}
 }
