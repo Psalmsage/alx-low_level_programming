@@ -10,8 +10,9 @@
 void puts2(char *str)
 {
 	int index = 0;
+	int len = strlen(str);
 
-	while (index < 10)
+	while (index < len)
 	{
 		printf("%c", str[index]);
 		index += 2;
