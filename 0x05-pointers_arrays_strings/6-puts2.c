@@ -9,11 +9,12 @@
 
 void puts2(char *str)
 {
-	int len = strlen(str);
+	int index = 0;
 
-	for (int index = 0; index < len; index += 2)
+	while (index < 10)
 	{
 		printf("%c", str[index]);
+		index += 2;
 	}
 	putchar ('\n');
 }
