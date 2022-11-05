@@ -3,6 +3,7 @@
 /**
  * main - main start
  * @argv: for all
+ * @argc: for void
  * Return: Always 0 (Success)
  */
 
