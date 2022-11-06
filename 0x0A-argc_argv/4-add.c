@@ -41,20 +41,18 @@ int main(int argc, char *argv[])
 	count = 1;
 	while (count < argc)
 	{
-		if (check_sum(argv[count])
-				{
-				str_to_int = atoi(argv[count]);
-				sum += str_to_int;
-				}
-
-				else
-				{
-				printf("ERROR\n");
-				return (1);
-				}
-				count++;
-				}
-
-				printf("%s\n", sum);
-				return (0);
-				}
+		if (check_num(argv[count]))
+		{
+			str_to_int = atoi(argv[count]);
+			sum += str_to_int;
+		}
+		else
+		{
+			printf("ERROR\n");
+			return (1);
+		}
+		count++;
+	}
+	printf("%d\n", sum);
+	return (0);
+}
