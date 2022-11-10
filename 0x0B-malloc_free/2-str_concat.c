@@ -27,7 +27,7 @@ int _strlen(char *s)
  * Return: ALways an array
  */
 
-char _concat(char *s1, char *s2)
+char *str_concat(char *s1, char *s2)
 {
 	char *dst;
 	unsigned int i, j, size;
@@ -46,10 +46,10 @@ char _concat(char *s1, char *s2)
 	{
 		return (NULL);
 	}
-	
-	for (i = 0; * (s1 + i) != '\0'; i++)
+
+	for (i = 0; *(s1 + i) != '\0'; i++)
 		*(dst + i) = *(s1 + i);
-	for (j - 0; * (s2 + j) != '\0' j++)
+	for (j = 0; *(s2 + j) != '\0'; j++)
 	{
 		*(dst + j) = *(s2 + j);
 		i++;
