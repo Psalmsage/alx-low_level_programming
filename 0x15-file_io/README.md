@@ -1,1 +1,1 @@
-for the file io syntax
+For the file io syntax and for the tasks with it.
